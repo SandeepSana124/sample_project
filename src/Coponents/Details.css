@@ -1,0 +1,71 @@
+.navclass{
+    background-color: #000080;
+}
+
+.spanEle{
+    font-size: 10px;
+}
+
+.button{
+    background-color: #fff;
+    color: #0B0BFF;
+    border: none;
+}
+
+.panini-card{
+    width: 100%;
+    height: auto;
+    background-color: #ffec41; 
+    display: flex;
+    justify-content: center;
+}
+
+.names{
+    color: white;
+} 
+
+.icon{
+    color: #0B0BFF;
+}
+
+.para{
+    color: #0B0BFF; 
+}
+
+.des-p{
+    font-size: 15px;
+}
+
+.bottom-section {
+    background-image: linear-gradient(to bottom,#70a2ea,#064493);
+    padding: 20px;
+}
+
+.panini-image{
+    
+    margin: 35px;
+}
+
+.panini-section{
+    text-align: start;
+}
+@media screen and (min-width: 480px) {
+    .panini-section{
+     margin-left: 150px;
+    }
+}
+.navitems-center{
+    margin-left: 100px;
+    
+}
+.spothead{
+    text-align: center;
+    color: white;
+}
+
+.contact-sec{
+    padding-top: 10px;
+}
+.bticons{
+    margin: 10px;
+}
