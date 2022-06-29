@@ -3,6 +3,8 @@ import {Route, Routes} from "react-router-dom"
 import Header from './Coponents/Header';
 import Home from './Coponents/Home';
 import Footer from './Coponents/Footer';
+import Hey from './Coponents/Hey';
+
 
 function App() {
   return (
@@ -12,7 +14,7 @@ function App() {
       <Route path="/" element={<Home/>}></Route>
      </Routes>
     
-     
+     <Hey/>
         <Footer/>
     
      
