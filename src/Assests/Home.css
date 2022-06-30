@@ -14,7 +14,6 @@
     width: fit-content;
     color: #33598b;
     font-family: HelveticaNeue;
-    border-radius: 0.9px;
   border: solid 0.9px #325889;
   background-color: #fff;
     
@@ -38,7 +37,7 @@ padding: 10x;
    div.panini p{
     font-size: 15px;
    }
-   .panini{
+.panini{
     font-family: BebasNeue;
     font-weight: normal;
   font-stretch: normal;
@@ -50,8 +49,8 @@ padding: 10x;
 
    }
    .panini-cards{
-    margin-left: 3em;
-
+    margin-left: 4em;
+    margin-top: 4em;
     align-content: center;
    }
 
@@ -60,6 +59,8 @@ padding: 10x;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 4em;
+
    
 
    }
@@ -70,6 +71,7 @@ padding: 10x;
   .sec-card1{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-style:none;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;

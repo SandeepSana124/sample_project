@@ -7,11 +7,11 @@ import Hello from "./Coponents/Hello";
 
 import ChooseProvide from './Coponents/ChooseProvider'
 import Setupmanual from './Coponents/SetupManual'
-/* import './App.css'; */
+ import './App.css';
 
 
-/* import "./Assests/Home1.css"
-import "./Assests/Home.css" */
+ import "./Assests/Home1.css"
+import "./Assests/Home.css" 
 
 
 import {Route, Routes} from "react-router-dom"
@@ -32,9 +32,7 @@ function App() {
   return (
 
     <div className="">
-      {/*  <Header/>
 
-    <div className="App">
 
   
      <Hell/>
@@ -52,13 +50,13 @@ function App() {
 
      
 
-        <Footer/> */}
-    <Hello/>
+        {/* <Footer/> */} 
+    {/* <Hello/> */}
     {/*  <ChooseProvide/>  */}
    {/*  <DetailsPage/> */}
    {/* <Hell/> */}
   {/*  <Resources/> */}
-     <Setupmanual/> 
+     {/* <Setupmanual/>  */}
 
 
     

@@ -17,13 +17,14 @@ function Home() {
   return (
     
 
+<>
     
     <div className='combine'>
 
     
     <div className=' mb-5 mt-5'>
         <div className=''>
-            <div className='col-12 col-lg-9 d-flex p-4 m-5'>
+            <div className='col-12 col-lg-9 d-flex p-4 m-4'>
                  <div className="home-img col-lg-4 col-md-6">
                      <div className='resorce-heading'>
                         <div className='bg-resorce'>
@@ -41,18 +42,15 @@ function Home() {
 
                  </div> 
 
-<div className='panini-cards p-4 '>
-<div className="sec-card1">
-                    <div className="mt-2 panini-img">
-                        <img src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/resorces2.png")}></img>
-<div className='row panini-cards col-md-6'>
-<div className="card">
+                 <div className=' panini-cards'>
+<div className="sec-card1 ml-3">
                     <div className='panini-img mt-2'>
-                        <img src={require ("/home/chandrikabogem/Desktop/GitProject/sample_project/src/Assests/resorces2.png")}></img>
+                        <img src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/resorces2.png")}></img>
                     </div>
                     <div className='panini mt-3'>
                     <h6>PANINI AMERICA</h6>
-                    <p className='text-muted'>SpotWorks reduced Panini's AWS expenses by 50% and dynamically managed instances for optimum efficiency</p>
+                    <p className='text-muted'>
+                    SpotWorks reduced Panini's AWS expenses by 50% and dynamically managed instances for optimum efficiency                                </p>
 
                     </div>
                     <div className='read-more-btn-sec'>
@@ -62,16 +60,15 @@ function Home() {
 
 
                  </div>
+</div> 
 
 
-                 
 
-</div>
 
-<div className=' panini-cardss'>
+ <div className=' panini-cardss'>
 <div className="sec-card2 ml-3">
                     <div className='panini-img mt-2'>
-                        <img src={require ("/home/chandrikabogem/Desktop/GitProject/sample_project/src/Assests/resorces3..png")}></img>
+                        <img src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/resorces3..png")}></img>
                     </div>
                     <div className='panini mt-3'>
                     <h6>MANN+HUMMEL</h6>
@@ -86,12 +83,13 @@ function Home() {
 
 
                  </div>
-</div>  
+</div>   
 
 
             </div>
+            </div>
 
-<div className='d-flex justify-content-center'>
+<div className='d-flex flex-row justify-content-center'>
     <button className='mt-5 view-all-resorces-button' onClick={resorces}>View All</button>
 
 
@@ -137,7 +135,7 @@ function Home() {
                                 <div className='row'>
                                     <div className='col-12 col-lg-5 d-flex'>
                                         <div>
-                                            <img className='card-image' alt='rectangle img' src={require ("/home/chandrikabogem/Desktop/GitProject/sample_project/src/Assests/rectangle.png")}/>
+                                            <img className='card-image' alt='rectangle img' src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/rectangle.png")}/>
                                         </div>
                                         <div className='card-content'>
                                             <h5>ANALYSIS</h5>
@@ -164,7 +162,7 @@ function Home() {
                                 <div className='row'>
                                     <div className='col-12 col-lg-5 d-flex'>
                                         <div>
-                                            <img className='card-image' alt='rectangle1 img' src={require ("/home/chandrikabogem/Desktop/GitProject/sample_project/src/Assests/rectangle1.png")}/>
+                                            <img className='card-image' alt='rectangle1 img' src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/rectangle1.png")}/>
                                         </div>
                                         <div className='card-content'>
                                             <h5>ADAPTATION</h5>
@@ -193,7 +191,7 @@ function Home() {
                                 <div className='row'>
                                     <div className='col-12 col-lg-5 d-flex'>
                                         <div>
-                                            <img className='card-image' alt='rectangle1 img' src={require ("/home/chandrikabogem/Desktop/GitProject/sample_project/src/Assests/rectangle2.png")}/>
+                                            <img className='card-image' alt='rectangle1 img' src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/rectangle2.png")}/>
                                         </div>
                                         <div className='card-content'>
                                             <h5>ONBOARDING</h5>
@@ -224,7 +222,7 @@ function Home() {
                                 <div className='row'>
                                     <div className='col-12 col-lg-5 d-flex'>
                                         <div>
-                                            <img className='card-image' alt='rectangle1 img' src={require ("/home/chandrikabogem/Desktop/GitProject/sample_project/src/Assests/rectangle3.png")}/>
+                                            <img className='card-image' alt='rectangle1 img' src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/rectangle3.png")}/>
                                         </div>
                                         <div className='card-content'>
                                             <h5>TESTING AND COMISSION</h5>
@@ -254,7 +252,7 @@ function Home() {
                                 <div className='row'>
                                     <div className='col-12 col-lg-5 d-flex'>
                                         <div>
-                                            <img className='card-image' alt='rectangle1 img' src={require ("/home/chandrikabogem/Desktop/GitProject/sample_project/src/Assests/rectangle4.png")}/>
+                                            <img className='card-image' alt='rectangle1 img' src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/rectangle4.png")}/>
                                         </div>
                                         <div className='card-content'>
                                             <h5>LIVE-OPS  </h5>
@@ -289,6 +287,7 @@ function Home() {
 
 
 
+</>
 
 
 
@@ -301,9 +300,10 @@ function Home() {
 
 
 
-    </div>
 
+    
 
+    
   )
 }
 
