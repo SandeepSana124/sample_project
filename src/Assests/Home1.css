@@ -1,0 +1,124 @@
+.img {
+    height: 500px;
+    margin: 0 175px 580px 0;
+    padding: 90px;
+    width: fit-content;
+    /* padding: 106px 22px 198px 89px; */
+    background-image: url("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/approach.png");
+  
+  }
+  
+  .bg-color {
+    padding: 30px;
+  width: fit-content;
+    background-image: linear-gradient(to bottom, #cedcef, #f5f8fc 85%, #fff);
+  }
+  .p{
+    font-family: BebasNeue;
+    color: #0b366f;
+  }
+  
+  .bg{
+    background-color: orange;
+    width: fit-content;
+    height: 35px;
+    text-align: center;
+  
+    padding: 6px 22.5px 4px 23.5px;
+  }
+  
+  .Assessment {
+    align-items: center;
+    text-align: center;
+    width: 230px;
+    height: 55px;
+    margin: 2px 26px 109px 11px;
+    font-family: BebasNeue;
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.92;
+    letter-spacing: 0.6px;
+    color: #fff;
+    background-image: linear-gradient(to bottom, #70a2ea 3%, #064493);
+  }
+  .live-ops{
+    width: 400px;
+    height: 55px;
+    margin: 2px 26px 109px 11px;
+    font-family: BebasNeue;
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.92;
+    letter-spacing: 0.6px;
+    color: #fff;
+    background-image: linear-gradient(to bottom, #70a2ea 3%, #064493);
+  
+  
+  }
+  .card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-style:none;
+    margin-right: 30px;
+    margin-left: 160px;
+    width: fit-content;
+    
+
+  }
+
+  .left-card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-style:none;
+    background-color: #fff;
+    margin-left: 80px;
+    width: fit-content;
+
+
+
+  }
+    .top-name{
+    font-weight: bold;
+    font-family: BebasNeue;
+    
+    
+  
+  }
+  /* .main-heading{
+    width: 600px;
+  } */
+  
+  .width-p{
+    width: 400px;
+  }
+  
+  .margin-image{
+    margin-right: 30px;
+  }
+  .card1{
+  margin-top: 1em;  
+    background-color:white;
+  }
+  .card-image{
+    width: 128px;
+    height: 128px;
+    /* margin: 7px 9px 0 23px; */
+    margin-right: 30px;
+   
+    margin-top: 0px;
+    object-fit: contain;
+  }
+  div.card1 p{
+    color: white;
+    text-align: center;
+  justify-content: center;
+  height: 30px;
+  width: 80px;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  }
+  
+  
+  
