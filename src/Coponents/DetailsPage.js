@@ -59,8 +59,7 @@ function DetailsPage() {
                 <h1 className='pb-4'>PANINI AMERICA</h1>
                 <div>
                     <div className='panini-card'>
-                    <img src={require('file:///home/ramyasingam/.cache/.fr-9bpCKK/group-8.jpg')} alt='UFC Logo' className='panini-image'/>
-                    
+                    <img src={require('/home/ramyasingam/Desktop/gittask/sample_project/src/Images/panini.jpg')} alt='UFC Logo' className='panini-image'/>    
                     </div>
                 </div>
             </div>
@@ -107,7 +106,7 @@ function DetailsPage() {
             <div className='spothead'>
                 {/* <h3>SpotWorks</h3>
                 <p>Powered By [X]cube Labs</p> */}
-                <img src={require('file:///home/ramyasingam/.cache/.fr-V41API/group.png')} alt='UFC Logo'/>
+                <img src={require('/home/ramyasingam/Desktop/gittask/sample_project/src/Images/spotworks.png')} alt='UFC Logo'/>
                 <div className='contact-sec'>   
                 <p>Contact Us</p>
                 <p>040-9123456</p>   
