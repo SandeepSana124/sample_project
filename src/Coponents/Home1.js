@@ -37,7 +37,7 @@ function Home1() {
                                 <div className='row'>
                                     <div className='col-12 col-lg-6 d-flex'>
                                         <div>
-                                            <img className='card-image' alt='rectangle img' src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/rectangle.png")}/>
+                                            <img className='card-image' alt='rectangle img' src={require ("/home/ramyasingam/Desktop/gittask/sample_project/src/Assests/rectangle.png")}/>
                                         </div>
                                         <div>
                                             <h5>ANALYSIS</h5>
@@ -64,7 +64,7 @@ function Home1() {
                                 <div className='row'>
                                     <div className='col-12 col-lg-5 d-flex'>
                                         <div>
-                                            <img className='card-image' alt='rectangle1 img' src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/rectangle1.png")}/>
+                                            <img className='card-image' alt='rectangle1 img' src={require ("/home/ramyasingam/Desktop/gittask/sample_project/src/Assests/rectangle1.png")}/>
                                         </div>
                                         <div>
                                             <h5>ADAPTATION</h5>
@@ -93,7 +93,7 @@ function Home1() {
                                 <div className='row'>
                                     <div className='col-12 col-lg-5 d-flex'>
                                         <div>
-                                            <img className='card-image' alt='rectangle1 img' src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/rectangle2.png")}/>
+                                            <img className='card-image' alt='rectangle1 img' src={require ("/home/ramyasingam/Desktop/gittask/sample_project/src/Assests/rectangle2.png")}/>
                                         </div>
                                         <div>
                                             <h5>ONBOARDING</h5>
@@ -124,7 +124,7 @@ function Home1() {
                                 <div className='row'>
                                     <div className='col-12 col-lg-5 d-flex'>
                                         <div>
-                                            <img className='card-image' alt='rectangle1 img' src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/rectangle3.png")}/>
+                                            <img className='card-image' alt='rectangle1 img' src={require ("/home/ramyasingam/Desktop/gittask/sample_project/src/Assests/rectangle3.png")}/>
                                         </div>
                                         <div>
                                             <h5>TESTING AND COMISSION</h5>
@@ -154,7 +154,7 @@ function Home1() {
                                 <div className='row'>
                                     <div className='col-12 col-lg-5 d-flex'>
                                         <div>
-                                            <img className='card-image' alt='rectangle1 img' src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/rectangle4.png")}/>
+                                            <img className='card-image' alt='rectangle1 img' src={require ("/home/ramyasingam/Desktop/gittask/sample_project/src/Assests/rectangle4.png")}/>
                                         </div>
                                         <div>
                                             <h5>LIVE-OPS  </h5>

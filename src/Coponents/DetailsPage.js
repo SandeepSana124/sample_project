@@ -62,8 +62,8 @@ function DetailsPage() {
 
                     <img src={require('/home/ramyasingam/Desktop/gittask/sample_project/src/Images/panini.jpg')} alt='UFC Logo' className='panini-image'/>    
 
-                    <img src={require('/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/ResourcesImages/group-17.jpg')} alt='UFC Logo' className='panini-image'/>
-                    
+                    {/* <img src={require('/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/ResourcesImages/group-17.jpg')} alt='UFC Logo' className='panini-image'/>
+                     */}
 
                     </div>
                 </div>
@@ -115,7 +115,7 @@ function DetailsPage() {
                 <img src={require('/home/ramyasingam/Desktop/gittask/sample_project/src/Images/spotworks.png')} alt='UFC Logo'/>
 
                 
-                <img src={require('file:///home/ramyasingam/.cache/.fr-V41API/group.png')} alt='UFC Logo'/>
+                {/* <img src={require('file:///home/ramyasingam/.cache/.fr-V41API/group.png')} alt='UFC Logo'/> */}
 
                 <div className='contact-sec'>   
                 <p>Contact Us</p>
