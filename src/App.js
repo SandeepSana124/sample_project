@@ -9,6 +9,11 @@ import Home1 from './Coponents/Home1';
 import Footer from './Coponents/Footer';
 import Home from './Coponents/Home';
 
+
+
+
+
+
 function App() {
   return (
     <div className="">
