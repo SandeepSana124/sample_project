@@ -44,7 +44,7 @@ function Home() {
 <div className='row panini-cards col-md-6'>
 <div className="card">
                     <div className='panini-img mt-2'>
-                        <img src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/resorces2.png")}></img>
+                        <img src={require ("/home/chandrikabogem/Desktop/GitProject/sample_project/src/Assests/resorces2.png")}></img>
                     </div>
                     <div className=' panini mt-3'>
                     <h6>PANINI AMERICA</h6>
@@ -64,7 +64,7 @@ function Home() {
 <div className='row panini-cardss col-md-6'>
 <div className="card ml-3">
                     <div className='panini-img mt-2'>
-                        <img src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/resorces3..png")}></img>
+                        <img src={require ("/home/chandrikabogem/Desktop/GitProject/sample_project/src/Assests/resorces3..png")}></img>
                     </div>
                     <div className=' panini mt-3'>
                     <h6>MANN+HUMMEL</h6>
@@ -127,7 +127,7 @@ function Home() {
                                 <div className='row'>
                                     <div className='col-12 col-lg-6 d-flex'>
                                         <div>
-                                            <img className='card-image' alt='rectangle img' src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/rectangle.png")}/>
+                                            <img className='card-image' alt='rectangle img' src={require ("/home/chandrikabogem/Desktop/GitProject/sample_project/src/Assests/rectangle.png")}/>
                                         </div>
                                         <div>
                                             <h5>ANALYSIS</h5>
@@ -154,7 +154,7 @@ function Home() {
                                 <div className='row'>
                                     <div className='col-12 col-lg-5 d-flex'>
                                         <div>
-                                            <img className='card-image' alt='rectangle1 img' src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/rectangle1.png")}/>
+                                            <img className='card-image' alt='rectangle1 img' src={require ("/home/chandrikabogem/Desktop/GitProject/sample_project/src/Assests/rectangle1.png")}/>
                                         </div>
                                         <div>
                                             <h5>ADAPTATION</h5>
@@ -183,7 +183,7 @@ function Home() {
                                 <div className='row'>
                                     <div className='col-12 col-lg-5 d-flex'>
                                         <div>
-                                            <img className='card-image' alt='rectangle1 img' src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/rectangle2.png")}/>
+                                            <img className='card-image' alt='rectangle1 img' src={require ("/home/chandrikabogem/Desktop/GitProject/sample_project/src/Assests/rectangle2.png")}/>
                                         </div>
                                         <div>
                                             <h5>ONBOARDING</h5>
@@ -214,7 +214,7 @@ function Home() {
                                 <div className='row'>
                                     <div className='col-12 col-lg-5 d-flex'>
                                         <div>
-                                            <img className='card-image' alt='rectangle1 img' src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/rectangle3.png")}/>
+                                            <img className='card-image' alt='rectangle1 img' src={require ("/home/chandrikabogem/Desktop/GitProject/sample_project/src/Assests/rectangle3.png")}/>
                                         </div>
                                         <div>
                                             <h5>TESTING AND COMISSION</h5>
@@ -244,7 +244,7 @@ function Home() {
                                 <div className='row'>
                                     <div className='col-12 col-lg-5 d-flex'>
                                         <div>
-                                            <img className='card-image' alt='rectangle1 img' src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/rectangle4.png")}/>
+                                            <img className='card-image' alt='rectangle1 img' src={require ("/home/chandrikabogem/Desktop/GitProject/sample_project/src/Assests/rectangle4.png")}/>
                                         </div>
                                         <div>
                                             <h5>LIVE-OPS  </h5>

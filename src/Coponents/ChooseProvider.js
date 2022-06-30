@@ -1,6 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './ChooseProvide.scss'
+import './ChooseProvide.css'
 
 const ChooseProvider = () => {
   return (

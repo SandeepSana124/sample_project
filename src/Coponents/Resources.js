@@ -27,7 +27,7 @@ const Resources = () => {
 
                                            
                         <div class="card card1 col-12 col-lg-4  "   style={{ width: "18" }}  >
-                            <img src={require('/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/ResourcesImages/group-17.jpg')} alt='UFC Logo' className='' />
+                            <img src={require('/home/chandrikabogem/Desktop/GitProject/sample_project/src/Assests/ResourcesImages/group-17.jpg')} alt='UFC Logo' className='' />
                             <div className='paniniCard' >
                                 <h2>Panini America</h2>
                                 <p>SpotWorks reduced Panini's AWS expenses by 50% and dynamically managed instances for optimum efficiency </p>
@@ -39,7 +39,7 @@ const Resources = () => {
                         </div>
 
                         <div class="card card2 col-12 col-lg-4 " style={{ width: "18" }}>
-                            <img src={require('/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/ResourcesImages/group-9.jpg')} alt='UFC Logo' className='' />
+                            <img src={require('/home/chandrikabogem/Desktop/GitProject/sample_project/src/Assests/ResourcesImages/group-9.jpg')} alt='UFC Logo' className='' />
                             <div className='paniniCard' >
                                 <h2>Mann+Hummel</h2>
                                 <p>The global leader in smart filtration devices maximised cloud erformance while reducing costs by 40% with SpotWorks. </p>
@@ -49,7 +49,7 @@ const Resources = () => {
                         </div>
 
                         <div class="card card3 col-12 col-lg-4  " style={{ width: "18" }}>
-                            <img src={require('/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/ResourcesImages/group-10.jpg')} alt='UFC Logo' className='' />
+                            <img src={require('/home/chandrikabogem/Desktop/GitProject/sample_project/src/Assests/ResourcesImages/group-10.jpg')} alt='UFC Logo' className='' />
 
                             <div className='paniniCard' >
                                 <h2>Nukkad Shops</h2>
@@ -60,7 +60,7 @@ const Resources = () => {
                         </div>
 
                         <div class="card card4 col-12 col-lg-4 " style={{ width: "18" }}>
-                            <img src={require('/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/ResourcesImages/group-43.jpg')} alt='UFC Logo' className='' />
+                            <img src={require('/home/chandrikabogem/Desktop/GitProject/sample_project/src/Assests/ResourcesImages/group-43.jpg')} alt='UFC Logo' className='' />
                             <div className='paniniCard' >
                                 <h2>Panini America</h2>
                                 <p>SpotWorks reduced Panini's AWS expenses by 50% and dynamically managed instances for optimum efficiency </p>
@@ -70,7 +70,7 @@ const Resources = () => {
                         </div>
 
                         <div class="card card5 col-12 col-lg-4 " style={{ width: "18" }}>
-                            <img src={require('/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/ResourcesImages/group-41.jpg')} alt='UFC Logo' className='' />
+                            <img src={require('/home/chandrikabogem/Desktop/GitProject/sample_project/src/Assests/ResourcesImages/group-41.jpg')} alt='UFC Logo' className='' />
                             <div className='paniniCard' >
                                 <h2>Mann+Hummel</h2>
                                 <p>The global leader in smart filtration devices maximised cloud erformance while reducing costs by 40% with SpotWorks.<br />
