@@ -8,9 +8,6 @@ const Resources = () => {
 //     alert("hello")
 // }
 
-
-
-
   return (
         <div className='continer'>
 
@@ -21,8 +18,6 @@ const Resources = () => {
                 {/* cards div */}
                 <div className='cardsDiv  container' >
                     <div className='row '>
-            
-
                                            
                         <div class="card card1 col-12 col-lg-4  "   style={{ width: "18" }}  >
                             <img src={require('/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/ResourcesImages/group-17.jpg')} alt='UFC Logo' className='' />
