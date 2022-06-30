@@ -127,7 +127,7 @@ function Home() {
                                 <div className='row'>
                                     <div className='col-12 col-lg-6 d-flex'>
                                         <div>
-                                            <img className='card-image' alt='rectangle img' src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/rectangle.png")}/>
+                                            <img className='card-image' alt='rectangle img' src={require ("/home/ramyasingam/Desktop/gittask/sample_project/src/Assests/rectangle.png")}/>
                                         </div>
                                         <div>
                                             <h5>ANALYSIS</h5>
