@@ -1,0 +1,81 @@
+
+.contain{
+    // background-image: url("file:///home/chaitanyaboddu/.cache/.fr-FMSbB6/server-room-purple-uhd-4-k-wallpaper.png");
+     background-image: linear-gradient(to bottom, #0c54b0, rgba(66, 125, 212, 0.88) 70%, #fff);
+ }
+ @mixin important($fs,$cl,$tt,$bc,$br) {
+     font-size:$fs;
+     color: $cl;
+     text-transform:$tt;
+     background-color:$bc;
+ border-radius:$br;
+ }
+ .heading{
+ @include important(14px,white,capitalize,null,null)
+ }
+ 
+ .container-fluid a{
+     @include important(null,white,null,null,null)
+ }
+ .btn-primary{
+     @include important(blue,null,null,#ffcd46,4px)
+ }
+ @mixin important1($bd,$cl,$bg,$fs,$pd,$op) {
+     border:$bd;
+     color:$cl;
+     background:$bg;
+     font-size:$fs;
+     padding:$pd;
+     opacity:$op;
+ }
+ .btn1{
+     @include important1(solid 1px #fff,white,#0c54b0,14px,5px,0.25)
+   }
+ .spotwork{
+     font-size: 14px;
+ }
+ @mixin important2($di,$jc,$ac,$pd,$mr,$cl,$fd,$ai){
+     display:$di;
+     justify-content:$jc;
+     align-content:$ac;
+     padding:$pd;
+     margin:$mr;
+     color:$cl;
+     flex-direction:$fd;
+     align-items:$ai;
+ }
+ .some{
+     @include important2(flex,space-evenly,stretch,15px,15px,null,null,null)
+ }
+ .reduce{
+     @include important2(flex, space-around,flex-start,20px,20px,white,column,flex-start)
+    //  display: flex;
+    //  flex-direction: column;
+    //  align-items: flex-start;
+    //  justify-content: space-around;
+ }
+ .reduce h1{
+     text-transform: capitalize;
+     text-align: left;
+ }
+ @mixin important3($di,$fd,$ai,$cl,$mr,$pd,$fs,$b-i) {
+     display:$di;
+     flex-direction:$fd;
+     align-items:$ai;
+     color:$cl;
+     margin:$mr;
+     padding:$pd;
+     font-size:$fs;
+     background-image:$b-i;
+ }
+ 
+ @mixin important3($di,$fd,$ai,$cl,$mr,$pd,$fs,$b-i) {
+    display:$di;
+    flex-direction:$fd;
+    align-items:$ai;
+    color:$cl;
+    margin:$mr;
+    padding:$pd;
+    font-size:$fs;
+    background-image:$b-i;
+}
