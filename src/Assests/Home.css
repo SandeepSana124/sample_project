@@ -1,0 +1,133 @@
+.home-img {
+    width: fit-content;
+    height: 440px;
+    margin-left: 1em;
+    background-image: url("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/resorces1.png");
+  }
+  .p{
+    font-family: BebasNeue;
+    color: #0b366f;
+
+  }
+  .read-more-button {
+    width: fit-content;
+    color: #33598b;
+    font-family: HelveticaNeue;
+    border-radius: 0.9px;
+  border: solid 0.9px #325889;
+  background-color: #fff;
+
+
+  }
+  .view-all-resorces-button{
+padding: 10x;
+    color: #0b4897;
+    font-family: HelveticaNeue;
+    border-radius: 0.9px;
+    border: solid 1px #084695;
+    background-color: #fff;
+  font-weight: 600;
+  }
+
+
+   div.panini p{
+    font-size: 15px;
+   }
+   .panini{
+    font-family: BebasNeue;
+    font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+
+
+   }
+   .panini-card{
+    margin-top: 5em;
+    margin-left: 0;
+   }
+
+   .panini-card1{
+    margin-top: 5em;
+    margin-left: 0;
+
+   }
+   .panini h6{
+    font-weight: 600;
+   }
+  .card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-style:none;
+  }
+.resorce-name{
+    margin-left: 1em;
+    font-family: BebasNeue;
+    font-weight: bold;
+
+
+}
+  .bg-resorce{
+    background-color: orange;
+    width: fit-content;
+    height: 35px;
+    text-align: center;
+    margin-left: 2em;
+  
+    padding: 6px 22.5px 4px 23.5px;
+  }
+  .savings {
+    
+    width: 175px;
+    height: 40px;
+    margin: 2px 151px 0 33px;
+    font-family: BebasNeue;
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.92;
+    letter-spacing: 0.6px;
+    color: #fff;
+    background-image: linear-gradient(to bottom, #70a2ea 3%, #064493);
+
+  }
+  .global {
+    width: 170px;
+    height: 40px;
+    margin: 2px 13px 0 21px;
+    font-family: BebasNeue;
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.92;
+    letter-spacing: 0.6px;
+    color: #fff;
+    background-image: linear-gradient(to bottom, #70a2ea 3%, #064493);
+
+  }
+  .Enterprises {
+   
+    width: 280px;
+    height: 40px;
+    margin: 2px 22px 0 17px;
+    font-family: BebasNeue;
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.92;
+    letter-spacing: 0.6px;
+    color: #fff;
+    background-image: linear-gradient(to bottom, #70a2ea 3%, #064493);
+
+  }
+
+  .resorce-heading{
+    margin-top: 6em;
+    margin-left: 3em;
+    /* margin: 4px 101px 14px 0; */
+    
+
+  }
+  
