@@ -1,0 +1,147 @@
+
+// nav{
+//    display: flex;
+
+//    border-radius: rgb(19, 15, 15);
+   
+// }
+// #navbarCollapse{
+//     display: flex;
+// }
+
+
+
+// .btn{
+// padding: 9px;
+// margin: 2px;
+// }
+
+.footer{
+    list-style:none;
+    margin: 15PX;
+    // display: flex;
+    // justify-content: space-between;
+    background-color: rgb(32, 92, 92);
+}
+// .a{
+//     list-style-type: none;
+//     text-align: left;
+//     color: green;
+// }
+
+// .row{
+// text-align: left;
+// align-items: center;
+// }
+
+// .logo{
+//     display: flex;
+//     justify-content: space-between; 
+//     }
+
+    
+
+//     .card{
+//         width: 30%;
+//         flex-wrap:nowrap ;
+//     }
+    
+//     .cardpara{
+//         display: flex;
+//         justify-content: space-between; 
+       
+//     }
+
+
+
+    // .navContainer{
+    //     background-color: rgb(93, 93, 93);
+    //     color: whitesmoke;
+    // }
+
+    // .nav-link{
+    //     color: white;
+    // }
+
+    // .a{
+    //     list-style: none;
+    // }
+    
+    // .cardInside{
+    //     display: row;
+    //     display: flex;
+    //     justify-content: space-between;
+
+    // }
+    .headingDiv{
+        text-align: left;
+    }
+
+.cardsDiv{
+    // display: flex;
+    // flex-direction: row;
+
+    // justify-content: space-between;
+    
+
+}
+
+.card{
+    padding: 8px;
+    // text-decoration: none;
+    
+}
+.paniniCard{
+    padding-top: 15px;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+
+    
+
+    @font-face {
+        font-family: 'abcd';
+        src:  url('fonts/abcd.eot?kjjapn');
+        src:  url('fonts/abcd.eot?kjjapn#iefix') format('embedded-opentype'),
+          url('fonts/abcd.ttf?kjjapn') format('truetype'),
+          url('fonts/abcd.woff?kjjapn') format('woff'),
+          url('fonts/abcd.svg?kjjapn#abcd') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: block;
+      }
+      
+      [class^="icon-abcd"], [class*=" icon-abcd"] {
+        /* use !important to prevent issues with browser extensions that change fonts */
+        font-family: 'abcd' !important;
+        speak: never;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+      
+        /* Better Font Rendering =========== */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      
+      .icon-abcduploadIcon:before {
+        content: "\e900";
+        color: #25d658;
+        font-size: 100px;
+      }
+      
+      .icon-abcdvideoSymbol:before {
+        content: "\e901";
+        color: #cf1111;
+      }
+
+      .icon{
+        content: "\e901";
+        color: #2411cf;
+      }
+
