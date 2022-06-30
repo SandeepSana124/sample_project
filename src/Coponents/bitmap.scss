@@ -1,0 +1,85 @@
+@mixin Sample($tal,$ali,$d,$fd) {
+    text-align: $tal;
+     align-items: $ali;
+     display: $d;
+     flex-direction:$fd;
+     justify-content: center;
+
+}
+
+.innerdiv{
+    @include Sample(center,center,flex,column)
+}
+
+.emailDiv{
+    color:blue
+}
+.firstdiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#s{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#para{
+    text-align: center;
+}
+
+
+.firstcontainer{
+
+background-color: rgb(207, 234, 242);}
+
+// .Rectangle {
+//     width: 641px;
+//     height: 724px;
+//     padding: 68px 97px 127px;
+//     box-shadow: 0 0 18px 0 rgba(5, 9, 16, 0.13);
+//     background-color: #fff;
+//   }
+// .card{
+   
+
+//     background-color: #eef2f7;
+//     width: 1440px;
+//     height: 900px;
+//     padding: 82px 164px 88px 151px;
+//     background-color: #eef2f7;
+//   }
+  
+.spotdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#thankdiv{
+text-align: left ;    
+padding-left:50px;
+margin:50px;
+}
+
+.verifymail{
+    width: 50%;
+}
+
+.recivingdiv{
+    padding-top:15px;
+    padding-bottom:10px
+
+}
+.recivingdiv p{
+padding-left: 50px;
+text-align: left;
+margin-left: 50px;
+margin-bottom: 0px;
+}
+
+
+
