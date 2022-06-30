@@ -1,0 +1,35 @@
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(3%, #70a2ea), to(#064493));
+  background-image: linear-gradient(to bottom, #70a2ea 3%, #064493);
+}
+
+.fill {
+  color: white;
+  margin: 10px;
+}
+
+.street {
+  color: white;
+  padding: 10px;
+  font-size: 10px;
+}
+
+.form-control {
+  opacity: 0.25;
+}
+
+.bi-cursor {
+  color: blue;
+}
+/*# sourceMappingURL=chai.css.map */

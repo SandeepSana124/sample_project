@@ -1,38 +1,85 @@
-.img {
-    height: 500px;
-    /* margin: 0 175px 580px 0; */
-    padding: 90px;
-    /* padding: 106px 22px 198px 89px; */
-    object-fit: contain;
-    background-image: url("file:///home/sandeepsana/Desktop/icomoon/33.png");
-  
-  }
-  
-  .bg-color {
-    padding: 30px;
-    width: 1500px;
-    background-image: linear-gradient(to bottom, #cedcef, #f5f8fc 85%, #fff);
+.home-img {
+    width: fit-content;
+    height: 440px;
+    margin-left: 1em;
+    background-image: url("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/resorces1.png");
   }
   .p{
     font-family: BebasNeue;
     color: #0b366f;
+
   }
-  
-  .bg{
+  .read-more-button {
+    width: fit-content;
+    color: #33598b;
+    font-family: HelveticaNeue;
+    border-radius: 0.9px;
+  border: solid 0.9px #325889;
+  background-color: #fff;
+
+
+  }
+  .view-all-resorces-button{
+padding: 10x;
+    color: #0b4897;
+    font-family: HelveticaNeue;
+    border-radius: 0.9px;
+    border: solid 1px #084695;
+    background-color: #fff;
+  font-weight: 600;
+  }
+
+
+   div.panini p{
+    font-size: 15px;
+   }
+   .panini{
+    font-family: BebasNeue;
+    font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+
+
+   }
+   .panini-card{
+    margin-top: 5em;
+    margin-left: 0;
+   }
+
+   .panini-card1{
+    margin-top: 5em;
+    margin-left: 0;
+
+   }
+   .panini h6{
+    font-weight: 600;
+   }
+  .card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-style:none;
+  }
+.resorce-name{
+    margin-left: 1em;
+    font-family: BebasNeue;
+    font-weight: bold;
+
+
+}
+  .bg-resorce{
     background-color: orange;
     width: fit-content;
     height: 35px;
     text-align: center;
+    margin-left: 2em;
   
     padding: 6px 22.5px 4px 23.5px;
   }
-  
-  .Assessment {
-    align-items: center;
-    text-align: center;
-    width: 230px;
-    height: 55px;
-    margin: 2px 26px 109px 11px;
+  .savings {
+    
+    width: 175px;
+    height: 40px;
+    margin: 2px 151px 0 33px;
     font-family: BebasNeue;
     font-size: 40px;
     font-weight: normal;
@@ -42,11 +89,12 @@
     letter-spacing: 0.6px;
     color: #fff;
     background-image: linear-gradient(to bottom, #70a2ea 3%, #064493);
+
   }
-  .live-ops{
-    width: 400px;
-    height: 55px;
-    margin: 2px 26px 109px 11px;
+  .global {
+    width: 170px;
+    height: 40px;
+    margin: 2px 13px 0 21px;
     font-family: BebasNeue;
     font-size: 40px;
     font-weight: normal;
@@ -56,64 +104,30 @@
     letter-spacing: 0.6px;
     color: #fff;
     background-image: linear-gradient(to bottom, #70a2ea 3%, #064493);
-  
-  
-  }
-  .card{
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    border-style:none;
-    margin-right: 30px;
-    margin-left: 160px;
 
   }
-
-  .left-card{
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    border-style:none;
-    background-color: #fff;
-    margin-left: 80px;
-
-  }
-    .top-name{
-    font-weight: bold;
-    font-family: BebasNeue;
-    
-    
-  
-  }
-  /* .main-heading{
-    width: 600px;
-  } */
-  
-  .width-p{
-    width: 400px;
-  }
-  
-  .margin-image{
-    margin-right: 30px;
-  }
-  .card1{
-  margin-top: 1em;  
-    background-color:white;
-  }
-  .card-image{
-    width: 128px;
-    height: 128px;
-    /* margin: 7px 9px 0 23px; */
-    margin-right: 30px;
+  .Enterprises {
    
-    margin-top: 0px;
-    object-fit: contain;
+    width: 280px;
+    height: 40px;
+    margin: 2px 22px 0 17px;
+    font-family: BebasNeue;
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.92;
+    letter-spacing: 0.6px;
+    color: #fff;
+    background-image: linear-gradient(to bottom, #70a2ea 3%, #064493);
+
   }
-  div.card1 p{
-    color: white;
-    text-align: center;
-  justify-content: center;
-  height: 30px;
-  width: 80px;
-  border-radius: 0px;
-  margin-bottom: 0px;
+
+  .resorce-heading{
+    margin-top: 6em;
+    margin-left: 3em;
+    /* margin: 4px 101px 14px 0; */
+    
+
   }
-  
-  
   
