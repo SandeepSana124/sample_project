@@ -1,0 +1,133 @@
+.iconcontainer{
+  width: 36px;
+  height: 36px;
+  background-color: #bcd1ee;
+}
+.spot{
+  color: #124f9d;
+  font-size: 18px;
+  margin-bottom: auto;
+}
+.spot2{
+  color: #124f9d;
+  font-size: 12px;
+}
+.chooseicon{
+   width: 100%;
+
+ background-color: #eef2f7;
+ 
+ 
+
+text-align: justify;
+
+-moz-text-align-last: center;
+
+ text-align-last: center;
+}
+.Rectangle {
+   width: 1000px;
+
+   margin: 31px 220px 41px; 
+  
+  padding: 98px 128px 172px 126px;
+  box-shadow: 0 0 14px 0 rgba(5, 9, 16, 0.13);
+  background-color: #fff;
+  text-align: center;
+}
+.question{
+text-align: justify;
+
+-moz-text-align-last: left;
+
+ text-align-last: left;
+}
+
+ .provider{
+   color: #050910;
+ }
+
+
+.spotcon{
+ 
+ 
+text-align: justify;
+
+-moz-text-align-last: center;
+
+ text-align-last: center;
+}
+.cont{
+  background-color: #bcd1ee;
+  width: 200px;
+  margin: auto; 
+}
+.display{
+    display: flex;
+    flex-direction: row;
+    
+   
+}
+.display3{
+  display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.manual{
+    color:#124f9d;
+    border: 2px #124f9d solid;
+    margin: auto;
+    
+}
+.connection{
+  color: #597ca9;
+  border: 2px #597ca9 solid;
+  text-align: center;
+  margin: auto;
+}
+.display2{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    padding: auto;
+     text-align: justify;
+
+    -moz-text-align-last: left;
+    
+     text-align-last: left; 
+}
+.button{
+  width: 150px;
+  text-align: center;
+}
+.button2{
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  margin: auto;
+}
+.content2{
+  color: #040404da;
+  font-size: 15px;
+}
+.button3{
+  border: solid 1px rgba(0, 0, 0, 0.32);
+  color: rgba(0, 0, 0, 0.32);
+  width: 250px;
+}
+.btn1{
+  color: blue;
+  border: 2px #124f9d solid;
+  width: 250px;
+  text-align: center;
+}
+.btn2{
+  color: white;
+  width: 250px;
+  text-align: center;
+}
+
+.head{
+  color: #597ca9;
+}
