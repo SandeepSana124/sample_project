@@ -59,13 +59,12 @@
   
   
   }
-  .card{
+  .right-card{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-style:none;
-    margin-right: 30px;
-    margin-left: 160px;
+    background-color: #fff;
     width: fit-content;
-    
+    margin: 5em;
 
   }
 
@@ -73,9 +72,7 @@
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-style:none;
     background-color: #fff;
-    margin-left: 80px;
-    width: fit-content;
-
+width: fit-content;
 
 
   }
@@ -93,12 +90,18 @@
   .width-p{
     width: 400px;
   }
-  
+/*   
   .margin-image{
     margin-right: 30px;
+  } */
+
+  .card-content{
+    text-align: left;
+    font-family: BebasNeue;
+
   }
   .card1{
-  margin-top: 1em;  
+  margin-top: 2em;  
     background-color:white;
   }
   .card-image{

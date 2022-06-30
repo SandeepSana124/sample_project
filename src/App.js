@@ -6,10 +6,10 @@ import "./Assests/Home.css"
 
 
 import {Route, Routes} from "react-router-dom"
-import Home1 from './Coponents/Home1';
 import Hell from './Coponents/Hell';
 import Home from './Coponents/Home';
 import Chai from './Coponents/Chai';
+import "./Assests/ResourcesImages/Resources.scss"
 
 
 

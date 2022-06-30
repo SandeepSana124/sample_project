@@ -1,5 +1,5 @@
 import React from 'react'
-// import '../main.scss'
+
 
 const Resources = () => {
 
@@ -12,33 +12,33 @@ const Resources = () => {
 
 
   return (
-        <div className='continer'>
+        <div className='container'>
 
-            <div className='container Inside'>
+            <div className='p-4'>
 
-                <div className='headingDiv ' > <h1 className='display-2' >Resources</h1></div>
+                <div className='headingDiv d-flex' > <h1 className='display-2' >Resources</h1></div>
 
                 {/* cards div */}
-                <div className='cardsDiv  container' >
-                    <div className='row '>
+                <div className='cardsDiv m-5 ' >
+                    <div className='row  '>
               
 
 
 
                                            
-                        <div class="card card1 col-12 col-lg-4  "   style={{ width: "18" }}  >
+                        <div class="cardR card6 col-12 col-lg-4  "   style={{ width: "20" }}  >
                             <img src={require('/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/ResourcesImages/group-17.jpg')} alt='UFC Logo' className='' />
                             <div className='paniniCard' >
                                 <h2>Panini America</h2>
-                                <p>SpotWorks reduced Panini's AWS expenses by 50% and dynamically managed instances for optimum efficiency </p>
+                                <p className=''>SpotWorks reduced Panini's AWS expenses by 50% and dynamically managed instances for optimum efficiency </p>
 
-                                <a href="#" class="btn btn-primary">Read More</a>
+                                <a  class="btn btn-primary">Read More</a>
 
                             </div>
 
                         </div>
 
-                        <div class="card card2 col-12 col-lg-4 " style={{ width: "18" }}>
+                        <div class="cardR card2 col-12 col-lg-4  " style={{ width: "18" }}>
                             <img src={require('/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/ResourcesImages/group-9.jpg')} alt='UFC Logo' className='' />
                             <div className='paniniCard' >
                                 <h2>Mann+Hummel</h2>
@@ -48,7 +48,7 @@ const Resources = () => {
                             </div>
                         </div>
 
-                        <div class="card card3 col-12 col-lg-4  " style={{ width: "18" }}>
+                        <div class="cardR card3 col-12 col-lg-4  " style={{ width: "18" }}>
                             <img src={require('/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/ResourcesImages/group-10.jpg')} alt='UFC Logo' className='' />
 
                             <div className='paniniCard' >
@@ -59,7 +59,7 @@ const Resources = () => {
                             </div>
                         </div>
 
-                        <div class="card card4 col-12 col-lg-4 " style={{ width: "18" }}>
+                        <div class="cardR card4 col-12 col-lg-4 " style={{ width: "18" }}>
                             <img src={require('/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/ResourcesImages/group-43.jpg')} alt='UFC Logo' className='' />
                             <div className='paniniCard' >
                                 <h2>Panini America</h2>
@@ -69,7 +69,7 @@ const Resources = () => {
                             </div>
                         </div>
 
-                        <div class="card card5 col-12 col-lg-4 " style={{ width: "18" }}>
+                        <div class="cardR  card5 col-12 col-lg-4  " style={{ width: "20" }}>
                             <img src={require('/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/ResourcesImages/group-41.jpg')} alt='UFC Logo' className='' />
                             <div className='paniniCard' >
                                 <h2>Mann+Hummel</h2>

@@ -22,16 +22,16 @@ function Home() {
 
     
     <div className=' mb-5 mt-5'>
-        <div className='row'>
-            <div className='col-12 col-lg-6 d-flex justify-content-between'>
-                 <div className="home-img">
+        <div className=''>
+            <div className='col-12 col-lg-9 d-flex p-4 m-5'>
+                 <div className="home-img col-lg-4 col-md-6">
                      <div className='resorce-heading'>
                         <div className='bg-resorce'>
                         <p className='p'>RESORCES</p>
 
                         </div>
-                    <h1 className='resorce-name d-flex  flex-column justify-content-center'>
-                        MAJOR <span className='savings'>SAVINGS</span>
+                    <h1 className='resorce-name d-flex flex-column'>
+                        MAJOR<span className='savings'>SAVINGS</span>
                             DELIVERED FOR <span className='global'>GLOBAL</span>
                             <span className='Enterprises'>ENTERPRICES</span>
 
@@ -41,17 +41,20 @@ function Home() {
 
                  </div> 
 
-<div className='row panini-cards col-md-6'>
-<div className="card">
-                    <div className='panini-img mt-2'>
+<div className='panini-cards p-4 '>
+<div className="sec-card1">
+                    <div className="mt-2 panini-img">
                         <img src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/resorces2.png")}></img>
                     </div>
-                    <div className=' panini mt-3'>
+                    <div className='panini mt-3'>
                     <h6>PANINI AMERICA</h6>
                     <p className='text-muted'>SpotWorks reduced Panini's AWS expenses by 50% and dynamically managed instances for optimum efficiency</p>
 
                     </div>
+                    <div className='read-more-btn-sec'>
                     <button className='mb-5 read-more-button' onClick={panini}>Read More</button>
+
+                    </div>
 
 
                  </div>
@@ -61,18 +64,21 @@ function Home() {
 
 </div>
 
-<div className='row panini-cardss col-md-6'>
-<div className="card ml-3">
+<div className=' panini-cardss'>
+<div className="sec-card2 ml-3">
                     <div className='panini-img mt-2'>
                         <img src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/resorces3..png")}></img>
                     </div>
-                    <div className=' panini mt-3'>
+                    <div className='panini mt-3'>
                     <h6>MANN+HUMMEL</h6>
                     <p className='text-muted'>
                     The global leader in smart filtration devices maximised cloud erformance while reducing costs by 40% with SpotWorks.                        </p>
 
                     </div>
+                    <div className='read-more-btn-sec'>
                     <button className='mb-5 read-more-button'>Read More</button>
+
+                    </div>
 
 
                  </div>
@@ -112,8 +118,8 @@ function Home() {
                    
 
                 </div>
-                <div className=' mt-5 p-3 '>
-<div className='row d-flex justify-content-between'>
+                <div className='mt-5 p-3 '>
+<div className=''>
 
   {/* card 1 */}
 
@@ -125,11 +131,11 @@ function Home() {
 
                             <div className='container'>
                                 <div className='row'>
-                                    <div className='col-12 col-lg-6 d-flex'>
+                                    <div className='col-12 col-lg-5 d-flex'>
                                         <div>
                                             <img className='card-image' alt='rectangle img' src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/rectangle.png")}/>
                                         </div>
-                                        <div>
+                                        <div className='card-content'>
                                             <h5>ANALYSIS</h5>
                                             <p className=' width-p text-muted'>To begin with, We study your existing architecture in detail and identify services and components that can be transformed
 </p>
@@ -144,7 +150,7 @@ function Home() {
                     </div>
 
 {/* card 2 */}
-                    <div className='card mt-5'>
+                    <div className='right-card mt-5'>
                         <div className='card1 '>
                                 <p className="bg-dark" >02</p>
 
@@ -156,7 +162,7 @@ function Home() {
                                         <div>
                                             <img className='card-image' alt='rectangle1 img' src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/rectangle1.png")}/>
                                         </div>
-                                        <div>
+                                        <div className='card-content'>
                                             <h5>ADAPTATION</h5>
                                             <p className='width-p  text-muted'>
                                             This is where we determine the required changes in your existing processes, such as adding fault tolerance capabilities and workload transformation
@@ -174,7 +180,7 @@ function Home() {
                     {/* card 3 */}
 
                     <div className='left-card mt-5 '>
-                        <div className='card1 '>
+                        <div className='card1'>
                                 <p className="bg-dark" >03</p>
 
                             </div>
@@ -185,7 +191,7 @@ function Home() {
                                         <div>
                                             <img className='card-image' alt='rectangle1 img' src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/rectangle2.png")}/>
                                         </div>
-                                        <div>
+                                        <div className='card-content'>
                                             <h5>ONBOARDING</h5>
                                             <p className='width-p text-muted'>
                                             All those services/components that are identified for transforming are deployed using [x]cube framework to AWS without any service interruption
@@ -204,7 +210,7 @@ function Home() {
 {/* card-4 */}
 
 
-<div className='card mt-5 '>
+<div className='right-card mt-5 '>
                         <div className='card1 '>
                                 <p className="bg-dark" >04</p>
 
@@ -216,7 +222,7 @@ function Home() {
                                         <div>
                                             <img className='card-image' alt='rectangle1 img' src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/rectangle3.png")}/>
                                         </div>
-                                        <div>
+                                        <div className='card-content'>
                                             <h5>TESTING AND COMISSION</h5>
                                             <p className='width-p text-muted'>
                                             The system performs certain tests to ensure fault tolerance and smooth application flow
@@ -246,7 +252,7 @@ function Home() {
                                         <div>
                                             <img className='card-image' alt='rectangle1 img' src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/rectangle4.png")}/>
                                         </div>
-                                        <div>
+                                        <div className='card-content'>
                                             <h5>LIVE-OPS  </h5>
                                             <p className='width-p text-muted'>
                                             After the services are moved to our platform, [x]cube LABS will take care of managing and maintaining the applications</p>
