@@ -21,9 +21,7 @@ const Resources = () => {
                 {/* cards div */}
                 <div className='cardsDiv  container' >
                     <div className='row '>
-              
-
-
+            
 
                                            
                         <div class="card card1 col-12 col-lg-4  "   style={{ width: "18" }}  >
