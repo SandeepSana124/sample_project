@@ -1,0 +1,72 @@
+.contain {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0c54b0), color-stop(70%, rgba(66, 125, 212, 0.88)), to(#fff));
+  background-image: linear-gradient(to bottom, #0c54b0, rgba(66, 125, 212, 0.88) 70%, #fff);
+}
+
+.heading {
+  font-size: 14px;
+  color: white;
+  text-transform: capitalize;
+}
+
+.container-fluid a {
+  color: white;
+}
+
+.btn-primary {
+  font-size: blue;
+  background-color: #ffcd46;
+  border-radius: 4px;
+}
+
+.btn1 {
+  border: solid 1px #fff;
+  color: white;
+  background: #0c54b0;
+  font-size: 14px;
+  padding: 5px;
+  opacity: 0.25;
+}
+
+.spotwork {
+  font-size: 14px;
+}
+
+.some {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  padding: 15px;
+  margin: 15px;
+}
+
+.reduce {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  padding: 20px;
+  margin: 20px;
+  color: white;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.reduce h1 {
+  text-transform: capitalize;
+  text-align: left;
+}
+/*# sourceMappingURL=hell.css.map */
