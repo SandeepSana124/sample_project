@@ -14,7 +14,7 @@ function Hell() {
             <div className="container-fluid">
               {/* <a className="navbar-brand" href="#"> */}
               <div>
-                <img src={require("file:///home/chaitanyaboddu/.cache/.fr-jvyc8a/group.png")} alt='UFC Logo' className='spotwork' />
+                <img src={require("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/footer1.png")} alt='UFC Logo' className='spotwork' />
               </div>
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>

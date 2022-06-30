@@ -22,7 +22,7 @@ function Home() {
 
                  </div> 
 
-<div className='row panini-card col-md-6 col-sm-6'>
+<div className='row panini-card col-md-6'>
 <div className="card">
                     <div className='panini-img mt-2'>
                         <img src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/resorces2.png")}></img>
@@ -42,7 +42,7 @@ function Home() {
 
 </div>
 
-<div className='row panini-card1 col-md-6 col-sm-6'>
+<div className='row panini-card1 col-md-6'>
 <div className="card ">
                     <div className='panini-img mt-2'>
                         <img src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/resorces3..png")}></img>
@@ -63,7 +63,10 @@ function Home() {
             </div>
 
 <div className='d-flex justify-content-center'>
-<button className='mt-5 view-all-resorces-button'>View All</button>
+    <link to="/resorces">
+    <button className='mt-5 view-all-resorces-button'>View All</button>
+
+    </link>
 
 </div>
 
