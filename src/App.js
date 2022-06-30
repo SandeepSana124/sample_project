@@ -12,7 +12,7 @@ import Chai from './Coponents/Chai';
 import Resources from './Coponents/Resources'
 import DetailsPage from './Coponents/DetailsPage';
 
-import DetailsPage from './Coponents/DetailsPage';
+// import DetailsPage from './Coponents/DetailsPage';
 
 
 function App() {
