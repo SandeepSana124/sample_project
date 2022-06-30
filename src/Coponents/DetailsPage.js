@@ -65,7 +65,7 @@ function DetailsPage() {
                 <h1 className='pb-4'>PANINI AMERICA</h1>
                 <div>
                     <div className='panini-card'>
-                    <img src={require('/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/ResourcesImages/group-17.jpg')} alt='UFC Logo' className='panini-image'/>
+                    <img src={require('/home/chandrikabogem/Desktop/GitProject/sample_project/src/Assests/ResourcesImages/group-17.jpg')} alt='UFC Logo' className='panini-image'/>
                     
                     </div>
                 </div>

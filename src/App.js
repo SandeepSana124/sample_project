@@ -1,8 +1,17 @@
-import './App.css';
 
 
-import "./Assests/Home1.css"
-import "./Assests/Home.css"
+/* import Header from './Coponents/Header';
+import Home from './Coponents/Home';
+import Footer from './Coponents/Footer'; */
+import Hello from "./Coponents/Hello";
+
+import ChooseProvide from './Coponents/ChooseProvider'
+import Setupmanual from './Coponents/SetupManual'
+/* import './App.css'; */
+
+
+/* import "./Assests/Home1.css"
+import "./Assests/Home.css" */
 
 
 import {Route, Routes} from "react-router-dom"
@@ -18,12 +27,18 @@ import DetailsPage from './Coponents/DetailsPage';
 
 
 
+
 function App() {
   return (
+
+    <div className="">
+      {/*  <Header/>
+
     <div className="App">
 
   
      <Hell/>
+
      <Routes>
      <Route path="/" element={<Home/>}></Route>
      <Route path="/resorces" element={<Resources/>}></Route>
@@ -37,8 +52,18 @@ function App() {
 
      
 
+        <Footer/> */}
+    <Hello/>
+    {/*  <ChooseProvide/>  */}
+   {/*  <DetailsPage/> */}
+   {/* <Hell/> */}
+  {/*  <Resources/> */}
+     <Setupmanual/> 
+
+
     
     
+
      
     </div>
   );

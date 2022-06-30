@@ -4,12 +4,22 @@
     background-color: #bcd1ee;
 }
 .spot{
+
+  color: #124f9d;
+  font-size: 18px;
+  margin-bottom: auto;
+}
+.spot2{
+  color: #124f9d;
+  font-size: 12px;
+
     color: #124f9d;
     font-size: 18px;
 }
 .spot2{
     color: #124f9d;
     font-size: 10px;
+
 }
 .chooseicon{
    /*  width: 100%;

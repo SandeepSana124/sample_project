@@ -8,7 +8,7 @@ function Chai() {
     
     <div className='footer'>
         <div>
-          <img src={require("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/footer1.png")} alt='UFC Logo' className='spotwork' />
+          <img src={require("/home/chandrikabogem/Desktop/GitProject/sample_project/src/Assests/footer1.png")} alt='UFC Logo' className='spotwork' />
         </div>
         <div className='p-2'>
           <p>Reach Out to Us</p>
