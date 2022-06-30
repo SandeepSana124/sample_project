@@ -1,12 +1,103 @@
 import React from 'react'
-
+import { Link, useNavigate } from 'react-router-dom'
 
 function Home() {
+    const navigate = useNavigate()
+
+    const resorces=()=>{
+        navigate("/resorces")
+    }
+
+    const panini=()=>{
+        navigate("/panini")
+    }
+
+
+
   return (
-    <div className='container mt-3 bg-color'>
+    <>
+
+    
+    <div className='combine'>
+
+    
+    <div className=' mb-5 mt-5'>
+        <div className='row'>
+            <div className='col-12 col-lg-6 d-flex justify-content-between'>
+                 <div className="home-img">
+                     <div className='resorce-heading'>
+                        <div className='bg-resorce'>
+                        <p className='p'>RESORCES</p>
+
+                        </div>
+                    <h1 className='resorce-name d-flex  flex-column justify-content-center'>
+                        MAJOR <span className='savings'>SAVINGS</span>
+                            DELIVERED FOR <span className='global'>GLOBAL</span>
+                            <span className='Enterprises'>ENTERPRICES</span>
+
+                    </h1>
+                    </div> 
+
+
+                 </div> 
+
+<div className='row panini-cards col-md-6'>
+<div className="card">
+                    <div className='panini-img mt-2'>
+                        <img src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/resorces2.png")}></img>
+                    </div>
+                    <div className=' panini mt-3'>
+                    <h6>PANINI AMERICA</h6>
+                    <p className='text-muted'>SpotWorks reduced Panini's AWS expenses by 50% and dynamically managed instances for optimum efficiency</p>
+
+                    </div>
+                    <button className='mb-5 read-more-button' onClick={panini}>Read More</button>
+
+
+                 </div>
+
+
+                 
+
+</div>
+
+<div className='row panini-cardss col-md-6'>
+<div className="card ml-3">
+                    <div className='panini-img mt-2'>
+                        <img src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/resorces3..png")}></img>
+                    </div>
+                    <div className=' panini mt-3'>
+                    <h6>MANN+HUMMEL</h6>
+                    <p className='text-muted'>
+                    The global leader in smart filtration devices maximised cloud erformance while reducing costs by 40% with SpotWorks.                        </p>
+
+                    </div>
+                    <button className='mb-5 read-more-button'>Read More</button>
+
+
+                 </div>
+</div>  
+
+
+            </div>
+
+<div className='d-flex justify-content-center'>
+    <button className='mt-5 view-all-resorces-button' onClick={resorces}>View All</button>
+
+
+
+</div>
+
+        </div>
+        
+    </div>
+
+
+{/* section 2 */}
+    <div className=' mt-3 bg-color'>
         <div className='row -3'>
             <div className='col-12 col-lg-6 col-md-4 d-flex '>
-                <div className='img mt-3'>
+                <div className='img mt-3 '>
                     <div className='bg '>
                     <p className='p'>Our Approach</p>
                     </div>
@@ -21,12 +112,12 @@ function Home() {
                    
 
                 </div>
-                <div className='container mt-5 p-3'>
-<div className='row d-flex'>
+                <div className=' mt-5 p-3 '>
+<div className='row d-flex justify-content-between'>
 
   {/* card 1 */}
 
-<div className='left-card mt-5' >
+<div className='left-card  mt-5' >
                         <div className='card1 '>
                                 <p className="bg-dark" >01</p>
 
@@ -34,13 +125,13 @@ function Home() {
 
                             <div className='container'>
                                 <div className='row'>
-                                    <div className='col-12 col-lg-5 d-flex'>
+                                    <div className='col-12 col-lg-6 d-flex'>
                                         <div>
                                             <img className='card-image' alt='rectangle img' src={require ("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/rectangle.png")}/>
                                         </div>
                                         <div>
                                             <h5>ANALYSIS</h5>
-                                            <p className='width-p text-muted'>To begin with, We study your existing architecture in detail and identify services and components that can be transformed
+                                            <p className=' width-p text-muted'>To begin with, We study your existing architecture in detail and identify services and components that can be transformed
 </p>
                                         </div>
 
@@ -59,7 +150,7 @@ function Home() {
 
                             </div>
 
-                            <div className='container'>
+                            <div className='container '>
                                 <div className='row'>
                                     <div className='col-12 col-lg-5 d-flex'>
                                         <div>
@@ -67,7 +158,7 @@ function Home() {
                                         </div>
                                         <div>
                                             <h5>ADAPTATION</h5>
-                                            <p className='width-p text-muted'>
+                                            <p className='width-p  text-muted'>
                                             This is where we determine the required changes in your existing processes, such as adding fault tolerance capabilities and workload transformation
 </p>
                                         </div>
@@ -181,6 +272,28 @@ function Home() {
             </div>
         </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    </>
   )
 }
 

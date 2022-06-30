@@ -9,10 +9,18 @@ const SetupManual = () => {
                 <div class="container-fluid">
                     <a class="navbar-brand display" href="#">
 
+
                         <div alt="" width="30" height="24" class="d-inline-block align-text-top iconcontainer px-4" />
                         <div>
                             <p className='spot px-2'>SpotWorks</p>
                             <p className='spot2 px-1'>Powered by [X]Cube LABS</p>
+                            </div>
+
+                        <div alt="" width="30" height="24" class="d-inline-block align-text-top iconcontainer px-4" />
+                        <div>
+                            <p className='spot'>SpotWorks</p>
+                            <p className='spot2'>Powered by [X]Cube LABS</p>
+
                         </div>
                     </a>
 

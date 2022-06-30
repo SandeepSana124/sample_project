@@ -1,6 +1,6 @@
 import React from 'react'
- import 'bootstrap/dist/css/bootstrap.min.css'; 
-import './ChooseProvide.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './ChooseProvide.scss'
 
 const ChooseProvider = () => {
   return (
@@ -10,9 +10,9 @@ const ChooseProvider = () => {
           <a class="navbar-brand display" href="#">
             <div alt="" width="30" height="24" class="d-inline-block align-text-top iconcontainer px-4" />
             <div>
-                            <p className='spot px-2'>SpotWorks</p>
-                            <p className='spot2 px-1'>Powered by [X]Cube LABS</p>
-                        </div>
+              <span className='spot'>SpotWorks</span> <br />
+              <span className='spot2'>Powered by [X]Cube LABS</span>
+            </div>
           </a>
 
 

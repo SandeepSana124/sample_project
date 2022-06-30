@@ -5,19 +5,29 @@
 }
 .spot{
   color: #124f9d;
+
   font-size: 18px;
   margin-bottom: auto;
 }
 .spot2{
   color: #124f9d;
   font-size: 12px;
+
+  font-size: 16px;
+}
+.spot2{
+  color: #124f9d;
+  font-size: 10px;
+
 }
 .chooseicon{
    width: 100%;
 
  background-color: #eef2f7;
  
+
  
+
 
 text-align: justify;
 
@@ -28,8 +38,12 @@ text-align: justify;
 .Rectangle {
    width: 1000px;
 
+
    margin: 31px 220px 41px; 
   
+
+   margin: 31px 220px 41px;
+
   padding: 98px 128px 172px 126px;
   box-shadow: 0 0 14px 0 rgba(5, 9, 16, 0.13);
   background-color: #fff;
