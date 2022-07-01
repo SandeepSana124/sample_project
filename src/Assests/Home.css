@@ -1,22 +1,22 @@
 .home-img {
-    width: fit-content;
+    
     height: 440px;
-    margin-left: 1em;
     background-image: url("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/resorces1.png");
+    margin-left: 1em;
   }
   .p{
     font-family: BebasNeue;
     color: #0b366f;
 
   }
+  
   .read-more-button {
     width: fit-content;
     color: #33598b;
     font-family: HelveticaNeue;
-    border-radius: 0.9px;
   border: solid 0.9px #325889;
   background-color: #fff;
-
+    
 
   }
   .view-all-resorces-button{
@@ -28,39 +28,68 @@ padding: 10x;
     background-color: #fff;
   font-weight: 600;
   }
-
+.panini-img{
+    width: 349px;
+  height: 267px;
+  object-fit: contain;
+}
 
    div.panini p{
     font-size: 15px;
    }
-   .panini{
+.panini{
     font-family: BebasNeue;
     font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
+  text-align: left;
+  margin-left: 1em;
 
 
    }
    .panini-cards{
-    margin-top: 5em;
-    margin-left: 0;
+    margin-left: 4em;
+    margin-top: 4em;
+    align-content: center;
    }
 
    .panini-cardss{
-    margin-top: 5em;
-    margin-left: 6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+
+   
 
    }
    .panini h6{
     font-weight: 600;
    }
-  .card{
+
+  .sec-card1{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-style:none;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sec-card2{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-style:none;
+    margin-left: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
   }
 .resorce-name{
-    margin-left: 1em;
     font-family: BebasNeue;
     font-weight: bold;
 

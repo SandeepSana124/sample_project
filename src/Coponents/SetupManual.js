@@ -16,12 +16,12 @@ const SetupManual = () => {
                             <p className='spot2 px-1'>Powered by [X]Cube LABS</p>
                             </div>
 
-                        <div alt="" width="30" height="24" class="d-inline-block align-text-top iconcontainer px-4" />
+                       {/*  <div alt="" width="30" height="24" class="d-inline-block align-text-top iconcontainer px-4" />
                         <div>
                             <p className='spot'>SpotWorks</p>
                             <p className='spot2'>Powered by [X]Cube LABS</p>
 
-                        </div>
+                        </div> */}
                     </a>
 
 
@@ -87,7 +87,7 @@ const SetupManual = () => {
                         <h5 className='head py-2'>STEP2</h5>
                         <div className='display2 py-1'>
                             <p className='content2 '>Open the IAM console.</p>
-                            <button className='btn connection button mx-5 px-5'>OPEN</button>
+                            <button className='btn connection button2 px-4 mx-5'>Open</button>
 
                         </div>
                         <h5 className='head'>STEP3</h5>
@@ -112,12 +112,12 @@ const SetupManual = () => {
                         </div>
                         <div className='display py-3'>
                             <div>
-                                <button className='btn manual btn1 mx-4'>BACK
+                                <button className='btn backbtn  mx-4'>BACK
 
                                 </button>
                             </div>
                             <div>
-                                <button className='btn btn-primary btn2 connection mx-1'>CONNECT</button>
+                                <button className='btn connectbtn connection mx-1'>CONNECT</button>
                             </div>
                         </div>
                     </div>
