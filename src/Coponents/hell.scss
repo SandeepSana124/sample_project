@@ -1,24 +1,29 @@
 
 .contain{
-    // background-image: url("file:///home/chaitanyaboddu/.cache/.fr-FMSbB6/server-room-purple-uhd-4-k-wallpaper.png");
-     background-image: linear-gradient(to bottom, #0c54b0, rgba(66, 125, 212, 0.88) 70%, #fff);
- }
- @mixin important($fs,$cl,$tt,$bc,$br) {
+    background-image: url("/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/server-room-purple-uhd-4-k-wallpaper.png");
+  height: 700px;
+
+  box-shadow: inset 0 0 0 1000px rgb(6 65 140 / 82%);
+}
+
+ @mixin important($fs,$cl,$tt,$bc,$br,$bw) {
      font-size:$fs;
      color: $cl;
      text-transform:$tt;
      background-color:$bc;
  border-radius:$br;
+ border-width:$bw;
+
  }
  .heading{
- @include important(14px,white,capitalize,null,null)
+ @include important(14px,white,capitalize, rgba(3, 44, 96, 0.51),null,null)
  }
  
  .container-fluid a{
-     @include important(null,white,null,null,null)
+     @include important(null,white,null,null,null,null)
  }
  .btn-primary{
-     @include important(blue,null,null,#ffcd46,4px)
+     @include important(blue,null,null,#ffcd46,4px,0px)
  }
  @mixin important1($bd,$cl,$bg,$fs,$pd,$op) {
      border:$bd;
@@ -29,12 +34,12 @@
      opacity:$op;
  }
  .btn1{
-     @include important1(solid 1px #fff,white,#0c54b0,14px,5px,0.25)
+     @include important1(solid 1px #fff,white,#0c54b0,14px,5px,0.50)
    }
  .spotwork{
      font-size: 14px;
  }
- @mixin important2($di,$jc,$ac,$pd,$mr,$cl,$fd,$ai){
+ @mixin important2($di,$jc,$ac,$pd,$mr,$cl,$fd,$ai,$hi){
      display:$di;
      justify-content:$jc;
      align-content:$ac;
@@ -43,16 +48,19 @@
      color:$cl;
      flex-direction:$fd;
      align-items:$ai;
+     height:$hi;
+     
  }
  .some{
-     @include important2(flex,space-evenly,stretch,15px,15px,null,null,null)
+     @include important2(flex,space-evenly,stretch,15px,15px,null,null,null,null)
  }
  .reduce{
-     @include important2(flex, space-around,flex-start,20px,20px,white,column,flex-start)
+     @include important2(flex,center,null,20px,20px,white,column,flex-start,493px)
     //  display: flex;
     //  flex-direction: column;
     //  align-items: flex-start;
     //  justify-content: space-around;
+    
  }
  .reduce h1{
      text-transform: capitalize;
