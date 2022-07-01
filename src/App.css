@@ -14,7 +14,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: 
+  rgba(3, 44, 96, 0.51);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -32,7 +33,78 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+.container-fluid {
+  background-color: rgba(3, 44, 96, 0.51);
+  margin: -8px;
+  height: 65px;
+}
+
+.img001 {
+  height: 32px;
+
+}
+
+.button001 {
+  background-color: #ffcd46;
+  border: none;
+  color: #1854a2;
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 11px;
+  padding:9px 28px 7px 29px;
+
+
+}
+
+.navbar-ul001 {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+
+.contain {
+
+  height: 100vh;
+  background:  url("./Assests/server-room-purple.png");
+  filter: brightness(101%);
+  box-shadow: inset 0 0 0 1000px #033c8cc2;
+  background-size: cover;
+}
+
+.flex001{
+  width: 300px;
+  justify-content: space-evenly;
+}
+.h-tag001{
+  text-transform: uppercase;
+  margin-top: 10rem;
+  margin-left: 5rem;
+  font-variant: common-ligatures;
+}
+.h-tag001 h1{
+  font-size: 31px;
+}
+.p-tag001{
+  margin-left: 5rem;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+.start-demo {
+  color: #fff;
+  margin-left: 5rem;
+  font-size: 9px;
+  
+ 
+}
+
+
