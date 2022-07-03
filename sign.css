@@ -1,0 +1,59 @@
+.MainSign{
+    height: 100vh;
+    font-family: sans-serif !important;
+  }
+  .signFile{
+    height: 100vh;
+  }
+  .sign0111{
+    background-image: url("./images/bitmap-copy@3x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .sign0112{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .htag0111{
+    margin-right:13.3rem;
+    font-size: 30px;
+  }
+  .ptag0111{
+    color: #050910;
+    font-size: 12px;
+    margin-right:10.0rem;
+  }
+  .span0113{
+    margin: 0px !important;
+    position: relative;
+  }
+  .span0112{
+    color:#1665d8;
+    font-size: 10px;
+    margin: -7px 0px 0px -9rem;
+    background-color: #fff;
+    position: absolute;
+
+  }
+  .john011{
+    margin-bottom: 1rem; 
+    font-weight: 600;
+    color:rgba(0, 0, 0, 0.6);
+  }
+  .john0112{
+    background-color: rgb(0 0 0 / 7%);
+  }
+  .span0111{
+    margin-right: 10rem;
+  }
+  .john0111{
+    width: 20rem;
+    font-size: 12px;
+  }
+  .btsign0111{
+    width: 20rem;
+    font-size: 15px;
+    font-weight: 500 !important;    
+  }
