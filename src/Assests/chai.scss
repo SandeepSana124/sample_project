@@ -1,0 +1,56 @@
+@mixin important3($di,$fd,$ai,$cl,$mr,$pd,$fs,$b-i) {
+    display:$di;
+    flex-direction:$fd;
+    align-items:$ai;
+    color:$cl;
+    margin:$mr;
+    padding:$pd;
+    font-size:$fs;
+    background-image:$b-i;
+}
+//  .footer{
+//      @include important3(flex,column,center,white,null,null,null,linear-gradient(to bottom, #70a2ea 3%, #064493))
+//  }
+.footer{
+   background-image: url("file:///home/sandeepsana/Desktop/Routing/sample_project/src/Assests/footerbg.png");
+ height: 340px;
+//    box-shadow: inset 0 0 0 1000px rgb(6 65 140 / 82%);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: white;
+
+
+}
+.input-group{
+    border: solid 1px #fff;
+    // background-image: linear-gradient(to bottom, #70a2ea 3%, #064493);
+opacity: 0.6;
+
+}
+
+
+
+.footer-p{
+    opacity: 0.6;
+    font-family: Roboto;
+    text-align: center;
+    margin-top: 1em;
+
+}
+.fill{
+    @include important3(null,null,null,white,10px,null,null,null)
+}
+.street{
+    @include important3(null,null,null,white,null,10px,15px,null)
+}
+.form-control{
+    opacity: 0.25;
+}
+.bi-cursor{
+    color:blue;
+}
+
+::placeholder{
+    color: #fff;
+}
