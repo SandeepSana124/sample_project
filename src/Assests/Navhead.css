@@ -1,0 +1,52 @@
+
+  .nav-bg{
+    background-color: #093064;
+    padding: 0 90px 0 87px;
+    width: 100%;
+  }
+  .log-in{
+    color: white;
+  }
+  .container-fluid {
+    margin-top: -9px;
+    height: 65px;
+  /* padding: 0 90px 0 87px; */
+  }
+  
+  .img001 {
+    height: 32px;
+    width: fit-content;
+  
+  }
+  
+  .button001 {
+    background-color: #ffcd46;
+    border: none;
+    color: #1854a2;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 11px;
+    padding:9px 28px 7px 29px;
+  
+  
+  }
+  
+  .navbar-ul001 {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 500;
+  }
+  li{
+    font-weight: 600;
+    font-size: 15px;
+    font-family: BebasNeue;
+  }
+  
+
+  
+  .flex001{
+    width: 300px;
+    justify-content: space-evenly;
+  }
+  
+  

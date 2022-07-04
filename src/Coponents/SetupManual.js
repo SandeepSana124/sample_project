@@ -1,28 +1,20 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Setupmanual.css'
+import { useNavigate } from 'react-router-dom';
 
 const SetupManual = () => {
+    const navigate = useNavigate()
+
+    const amazon1=()=>{
+        navigate("/choose")
+    
+      }
     return (
         <div>
-            <nav class="navbar navbar-light bg-light mx-5">
-                <div class="container-fluid">
-                    <a class="navbar-brand display" href="#">
-
-
-                        <div alt="" width="30" height="24" class="d-inline-block align-text-top iconcontainer px-4" />
-                        <div>
-                            <p className='spot px-2'>SpotWorks</p>
-                            <p className='spot2 px-1'>Powered by [X]Cube LABS</p>
-                            </div>
-
-                       {/*  <div alt="" width="30" height="24" class="d-inline-block align-text-top iconcontainer px-4" />
-                        <div>
-                            <p className='spot'>SpotWorks</p>
-                            <p className='spot2'>Powered by [X]Cube LABS</p>
-
-                        </div> */}
-                    </a>
+            {/* <nav class="navbar ">
+                <div class="container-fluid d-flex">
+                <img src={require('/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/group.png')} alt='UFC Logo' className='img001' />
 
 
 
@@ -30,14 +22,14 @@ const SetupManual = () => {
                 </div>
 
 
-            </nav>
+            </nav> */}
 
 
 
 
 
 
-            <div className='container chooseicon m-10'>
+            <div className=' chooseicon  d-flex justify-content-center'>
                 <div className='container Rectangle mx-5 py-5 my-5'>
                     <div className='spotcon'>
                         <div className='cont'>
@@ -112,7 +104,7 @@ const SetupManual = () => {
                         </div>
                         <div className='display py-3'>
                             <div>
-                                <button className='btn backbtn  mx-4'>BACK
+                                <button className='btn backbtn  mx-4' onClick={amazon1}>BACK
 
                                 </button>
                             </div>

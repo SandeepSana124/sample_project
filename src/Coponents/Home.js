@@ -11,15 +11,38 @@ function Home() {
     const panini=()=>{
         navigate("/panini")
     }
+    const mannhumel=()=>{
+        navigate("/mannhumel")
+
+    }
+    const chooseprovider=()=>{
+        navigate("/choose")
+    
+      }
 
 
 
   return (
     
-
 <>
+<div className='section1'>
+        <div className='h-tag001 text-white '>
+        <h1>Reduce Your AWS Bills by up to <span style={{color:'#ffcd46'}}className='span001 '>80% While</span><br></br> Gaining the Most Out of Your Cloud!</h1>
+      </div>
+       <div className='p-tag'>
+      <p>SpotWorks enables you to run Spot instances without needing to worry about AWS taking them <br></br>
+      away with a 2 minute notice. Our predictive algorithms and failover tech ensures that your service <br></br>
+      migrates gracefully with no impact on end-users. And we do this by saving you an insane amount!</p>
+      </div> 
+      <div className='start-demo'>
+        <span style={{padding:'9px 55px 7px 56px'}}className="border border-light" onClick={chooseprovider}>START A DEMO</span>
+      </div>
+
+        </div>
     
     <div className='combine'>
+
+       
 
     
     <div className=' mb-5 mt-5'>
@@ -77,7 +100,7 @@ function Home() {
 
                     </div>
                     <div className='read-more-btn-sec'>
-                    <button className='mb-5 read-more-button'>Read More</button>
+                    <button className='mb-5 read-more-button'onClick={mannhumel}>Read More</button>
 
                     </div>
 

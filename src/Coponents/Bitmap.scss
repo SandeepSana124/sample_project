@@ -1,0 +1,154 @@
+@mixin Sample($tal,$ali,$d,$fd) {
+    text-align: $tal;
+     align-items: $ali;
+     display: $d;
+     flex-direction:$fd;
+     justify-content: center;
+
+}
+
+.innerdiv{
+    @include Sample(center,center,flex,column)
+}
+
+.emailDiv{
+    color:blue
+}
+.firstdiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#s{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#para{
+    text-align: center;
+}
+
+
+.firstcontainer{
+
+background-color: rgb(207, 234, 242);}
+
+
+.spotdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#thankdiv{
+text-align: left ;    
+padding-left:50px;
+margin:50px;
+}
+
+.verifymail{
+    width: 50%;
+}
+
+.recivingdiv{
+    padding-top:15px;
+    padding-bottom:10px
+
+}
+.recivingdiv p{
+padding-left: 50px;
+text-align: left;
+margin-left: 50px;
+margin-bottom: 0px;
+}
+.spot-image{
+    width: fit-content;
+    height: auto;
+    margin: 38px 0 42px;
+    padding: 0 0 1px;
+    object-fit: contain;
+}
+
+
+
+
+.cluster{
+    background-color: #064493;
+     height: 80vh;
+     
+}
+
+.clusterimg{
+    padding-top: 15px;
+    margin-left: 40px;
+    width: 12rem;
+
+}
+
+
+#clustNav{
+    height: 3rem;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#svgimg1{
+    margin-top: 8px;
+    color:lightsteelblue;
+    margin-right: 25px;
+}
+
+.clusterdiv1{
+    display: flex;
+    align-items: flex-start;
+    padding: 15px;
+    margin-top: 81px
+
+    // width: 16px;
+    // height: 16px;
+    // background-color: #fff;
+
+}
+.clusterdiv12{
+    display: flex;
+    align-items: flex-start;
+//  padding: 15px;
+margin-left: 1em;
+    // background-color: rgba(6, 47, 99, 0.34);
+    width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
+.clusterdiv22{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    // padding: 185px;
+
+    width: 146px;
+  height: 146px;
+  margin-left: 19em;
+
+}
+#clusterp{
+    margin-top: 15px;
+    color:#05091087;
+
+}
+#clusterbtn{
+    color: white;
+    background-image: linear-gradient( #70a2ea, #064493);
+}
+
+
+
+
+

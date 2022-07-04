@@ -1,14 +1,19 @@
 import React from 'react'
+import { Navigate, useNavigate } from 'react-router-dom'
 
 
 const Resources = () => {
+    const navigate = useNavigate()
+
 
 
 // function a(){
 //     alert("hello")
 // }
 
-
+const panini=()=>{
+    navigate("/panini")
+}
 
 
   return (
@@ -33,13 +38,13 @@ const Resources = () => {
                                 <h2>Panini America</h2>
                                 <p className=''>SpotWorks reduced Panini's AWS expenses by 50% and dynamically managed instances for optimum efficiency </p>
 
-                                <a  class="btn btn-primary">Read More</a>
+                                <a  class="btn btn-primary" onClick={panini}>Read More</a>
 
                             </div>
 
                         </div>
 
-                        <div class="cardR card2 col-12 col-lg-4  " style={{ width: "18" }}>
+                        <div class=" card2 col-12 col-lg-4  " style={{ width: "18" }}>
                             <img src={require('/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/ResourcesImages/group-9.jpg')} alt='UFC Logo' className='' />
                          <div className='paniniCard' >
                                 <h2>Mann+Hummel</h2>
@@ -49,7 +54,7 @@ const Resources = () => {
                             </div>
                         </div>
 
-                        <div class="cardR card3 col-12 col-lg-4  " style={{ width: "18" }}>
+                        <div class=" card3 col-12 col-lg-4  " style={{ width: "18" }}>
                             <img src={require('/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/ResourcesImages/group-10.jpg')} alt='UFC Logo' className='' />
                         
                             <div className='paniniCard' >
@@ -60,7 +65,7 @@ const Resources = () => {
                             </div>
                         </div>
 
-                        <div class="cardR card4 col-12 col-lg-4 " style={{ width: "18" }}>
+                        <div class=" card4 col-12 col-lg-4 mt-5" style={{ width: "18" }}>
                             <img src={require('/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/ResourcesImages/group-43.jpg')} alt='UFC Logo' className='' />
                          <div className='paniniCard' >
                                 <h2>Panini America</h2>
@@ -70,7 +75,7 @@ const Resources = () => {
                             </div>
                         </div>
 
-                        <div class="cardR  card5 col-12 col-lg-4  " style={{ width: "20" }}>
+                        <div class=" card5 col-12 col-lg-4  mt-5" style={{ width: "20" }}>
                             <img src={require('/home/sandeepsana/Desktop/Routing/sample_project/src/Assests/ResourcesImages/group-41.jpg')} alt='UFC Logo' className='' />
                            <div className='paniniCard' >
                                 <h2>Mann+Hummel</h2>

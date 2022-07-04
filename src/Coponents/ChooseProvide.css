@@ -1,8 +1,13 @@
-.iconcontainer{
+ .iconcontainer{
     width: 36px;
     height: 36px;
     background-color: #bcd1ee;
 }
+
+nav{
+  background-color: #dbdee2;
+}
+
 .spot{
 
   color: #124f9d;
@@ -22,8 +27,7 @@
 
 }
 .chooseicon{
-   /*  width: 100%;
-  height: 900px; */
+   
   padding: 0 0 49px;
   background-color: #eef2f7;
 }
@@ -33,14 +37,7 @@
   margin: 21px 0 20px 166px;
   background-color: #bcd1ee
 }
-/* .Rectangle {
-     width: 1000px;
-    height: 754px; 
-    margin: 32px 231px 0 209px;
-    padding: 97px 257px 270px 279px;
-    box-shadow: 0 0 14px 0 rgba(5, 9, 16, 0.13);
-    background-color: #fff;
-  } */
+
   .spotcontainer{
     width: 192px;
     height: 70px;
@@ -88,4 +85,4 @@
       background-color: #bcd1ee;
       width: 200px;
       margin: auto; 
-    }
+    } 
